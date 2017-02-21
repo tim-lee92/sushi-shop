@@ -1,0 +1,21 @@
+{
+  "name": "sushi_shop",
+  "version": "1.0.0",
+  "description": "Single page application practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jasmine-node spec --autotest --color --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "jasmine-node": "^1.14.5",
+    "node-static": "^0.7.9",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0"
+  }
+}

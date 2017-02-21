@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="lib/jasmine-2.5.2/jasmine.css">
+
+  <script src="lib/jasmine-2.5.2/jasmine.js"></script>
+  <script src="lib/jasmine-2.5.2/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.5.2/boot.js"></script>
+  <script src="/javascripts/vendor/all.js"></script>
+
+</head>
+
+  <script id="menu_template" type="text/x-handlebars">
+    {{#each food}}
+    <li>
+      <a class="details" href="##">
+        <img src="{{image}}" />
+        <h2>{{item}}</h2>
+        <h3>${{toFixed2 price}}</h3>
+      </a>
+      <a class="add" data-name="{{item}}" href="#">
+        <div class="add_to_cart">
+          + ADD TO CART
+        </div>
+      </a>
+    </li>
+    {{/each}}
+  </script>
+
+  <script id="cart_template" type="text/x-handlebars">
+    {{#each cart}}
+    <li>
+      <a class="delete" data-name="{{item}}" href="#">
+        <img src="{{image}}" />
+        <small>{{quantity}}x{{toFixed2 price}}</small>
+      </a>
+    </li>
+    {{/each}}
+  </script>
+  <script src="/javascripts/mvc.js"></script>
+  <script src="/javascripts/app.js"></script>
+  <script src="spec/menu_spec.js"></script>
+</body>
+</html>
