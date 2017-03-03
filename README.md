@@ -1,4 +1,4 @@
-Hello and welcome to a project that I have built from scratch as a practice project for [Launch School - an online school for developers](https://launchschool.com) in preparation for the school's Front-end development final exam.
+Hello and welcome to a project that I have built from scratch as a practice project for [Launch School - an online school for developers](https://launchschool.com) in preparation for the school's Front-end development final exam. Check out the live version here! https://sushi-ordering-timlee92.herokuapp.com/
 
 This is my attempt at the recreation, from scratch, of this single page application: http://demos.telerik.com/kendo-ui/websushi/#/, sans carousel animations when looking at the menu items in detail, using HTML, CSS, JavaScript, jQuery, Backbone, and Handlebars.
 
